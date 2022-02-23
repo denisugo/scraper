@@ -1,0 +1,22 @@
+{
+  "name": "scrapper",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "ts-node": "^10.5.0",
+    "puppeteer": "^13.3.2"
+  },
+  "scripts": {
+    "start": "node -r ts-node/register ./index.ts",
+    "dev": "nodemon --ignore 'output/*' --ignore '__test__/*' ./index.ts",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  }
+}

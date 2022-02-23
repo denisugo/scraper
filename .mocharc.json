@@ -1,0 +1,10 @@
+{
+  "extension": ["ts"],
+  "spec": "__test__/**/*.test.ts",
+  "require": "ts-node/register",
+  "delay": false,
+  "watch": true,
+  "bail": true,
+  "package": "./package.json",
+  "watch-ignore": ["node_modules", ".git"]
+}
